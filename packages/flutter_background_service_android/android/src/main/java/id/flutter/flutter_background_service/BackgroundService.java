@@ -168,7 +168,6 @@ public class BackgroundService extends Service implements MethodChannel.MethodCa
                     .setSmallIcon(R.drawable.ic_bg_service_small)
                     .setAutoCancel(true)
                     .setOngoing(true)
-                    .setShowBadge(false)
                     .setContentTitle(notificationTitle)
                     .setContentText(notificationContent)
                     .setContentIntent(pi);
